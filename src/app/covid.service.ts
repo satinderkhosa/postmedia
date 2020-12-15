@@ -15,6 +15,5 @@ export class CovidService {
 
   public getCovidSummary(){
     return this.httpClient.get(this.apiUrl);
-    
   }
 }
